@@ -5,6 +5,9 @@
     width:100%;
     max-width: 500px;
     margin: auto;
+    background-color: hsla(0, 0%, 100%, 0.75);
+    box-shadow: rgba(102, 102, 102, 0.747) 5px 5px 20px 10px;
+
 }
 .form__fieldset
 {
@@ -39,5 +42,11 @@
     display: inline-block;
 }
 
-
+.form__result
+{
+    width:100%;
+    max-width: 500px;
+    margin: 10px auto;
+    text-align: center;
+}
 
