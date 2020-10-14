@@ -1,0 +1,43 @@
+
+.form
+{
+    padding:20px;
+    width:100%;
+    max-width: 500px;
+    margin: auto;
+}
+.form__fieldset
+{
+    padding:20px;
+    width:100%;
+    max-width: 500px;
+    margin: auto;
+    
+}
+.form__submitButton
+{   
+    width:100%;
+    max-width: 500px;
+    margin: 10px auto;
+    border: none;
+    padding: 10px;
+    
+}
+
+.form__input
+{
+    width:100%;
+    max-width: 150px;
+}
+
+.form__label
+{
+    width: 100%;
+    max-width: 150px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+
