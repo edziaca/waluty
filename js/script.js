@@ -1,15 +1,18 @@
-let kwota = document.querySelector(".js-kwota");
-let kurs = document.querySelector(".js-kurs");
-let form = document.querySelector(".form");
-let wynik = document.querySelector(".js-wynik");
+const kwota = document.querySelector(".js-kwota");
+const kurs = document.querySelector(".js-kurs");
+const form = document.querySelector(".form");
+const wynik = document.querySelector(".js-wynik");
 
 form.addEventListener("submit", (kupa) => {
     kupa.preventDefault();
     
-    let daneKwota = kwota.value;
-    let daneKurs = kurs.value;
-    console.log(daneKwota);
+    const daneKwota = kwota.value;
+    const daneKurs = kurs.value;
+    
 
-let daneWynik= daneKwota/daneKurs;
-wynik.innerText = daneWynik;
+const daneWynik = (a, b) =>  b/a;
+
+
+//const daneWynik= daneKwota/daneKurs;
+wynik.innerText = daneWynik(daneKurs, daneKwota);
    });
